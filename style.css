@@ -1,0 +1,144 @@
+.inside {
+    margin: 0 auto;
+    width: 501px;
+    height: 100%; 
+    background-color: rgb(233, 245, 255);
+}
+
+h1 {
+    text-align: center;
+    border: 10px;
+}
+
+.header
+{
+    background-color: rgb(173, 173, 173);
+}
+
+.DateFrom {
+    margin: 5px;
+    width: 98%;
+}
+
+input{
+   width: 100%;
+}
+
+select {
+    width: 400px;
+}
+
+.row_one {
+    display: flex;
+    width: 240%;
+} 
+.row_two {
+    display: flex;
+    width: 240%;
+} 
+
+.form-control{
+    margin: 5px;
+}
+
+.checkbox {
+    margin: auto;
+}
+
+.btn{
+    margin: 5px;
+    margin-left: 35%;
+    width: 150px;
+    
+}
+
+/*результаты*/
+/*Результаты*/
+.blog-page{
+    width: 576px;
+    box-sizing: border-box;
+    margin: 15px auto;
+    padding: 1rem;
+    line-height: 1.42857143;
+    font-size: 13px;
+    color: #666666;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+  }
+  
+  .blog-post{
+    animation-duration: 1s;
+    animation-fill-mode: both;
+    visibility: visible;
+    animation-name: fadeInUp;
+  
+    border: solid #f7f7f9;
+    border-width: .2rem;
+    margin: 15px auto;
+    padding: 1rem;
+  }
+  
+  .blog-post h1{
+    visibility: visible;
+    box-sizing: border-box;
+    margin: .67em 0;
+    font-weight: 500;
+    line-height: 1.1;
+    color: inherit;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-family: 'FjallaOneRegular';
+    font-size: 25px;
+    text-transform: uppercase;
+  }
+  
+  .author, .date-time{
+    padding-right: 20px;
+    color: #aaa;
+  }
+  
+  .blog-post p{
+    margin: 0 0 10px;
+    padding-top: 16px;
+    text-align: justify;
+    color: #666666;
+    margin-bottom: 0px;
+  }
+  
+  .read-more{
+    font-family: 'Roboto', sans-serif;
+    visibility: visible;
+    box-sizing: border-box;
+    text-decoration: none;
+    outline: none!important;
+    display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 0;
+    font-weight: 400;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    cursor: pointer;
+    user-select: none;
+    border-radius: 4px;
+    text-transform: uppercase;
+    transition: all linear 0.2s;
+    background: #a8a8a8;
+    color: #fff;
+    border: none;
+    line-height: 22px;
+    margin-top: 10px;
+  }
+  
+  .img-responsive{
+    font-family: 'Roboto', sans-serif;
+    visibility: visible;
+    color: #abd07e;
+    box-sizing: border-box;
+    border: 0;
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto
+  }
